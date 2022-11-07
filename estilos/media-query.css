@@ -19,6 +19,12 @@
         float: right;
         width: 70%;
     }
+
+    form > div.campo > input {
+        width: calc(100% - 44px);
+        transform: translate(44px, -42px)
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -32,12 +38,25 @@
 
     section#login div#imagem {
         width: 50%;
-        float: left;
+        float: right;
         height: 100%;
     }
 
     section#login div#formulario {
         width: 50%;
-        float: right;
+        float: left;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1em;
+    }
+
+    form > div.campo > input {
+        width: calc(100% - 44px);
+        transform: translate(44px, -42px)
     }
 }
