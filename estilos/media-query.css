@@ -23,8 +23,7 @@
     }
 
     form > div.campo > input {
-        width: calc(100% - 44px);
-        transform: translate(44px, -42px)
+ 
     }
 
 }
@@ -60,7 +59,7 @@
     }
 
     form > div.campo > input {
-        width: calc(100% - 44px);
-        transform: translate(44px, -42px)
+      
+       
     }
 }

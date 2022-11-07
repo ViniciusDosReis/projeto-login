@@ -112,7 +112,7 @@ form > div.campo > input {
     height: 100%;
     border: 0px;
     border-radius: 8px;
-    transform: translate(2px, -12px)
+    transform: translate(-12px, -12px)
 }
 
 form > div.campo > span {
